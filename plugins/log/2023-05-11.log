@@ -1,0 +1,204 @@
+127.0.0.1 - - [12/May/2023:09:12:24 +0000] "GET /server/goods/list/1?_t=1683882744897 HTTP/1.1" 200 72 "http://localhost:3000/console" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+127.0.0.1 - - [12/May/2023:09:16:07 +0000] "GET /server/test HTTP/1.1" 500 87471 "-" "PostmanRuntime/7.32.2"
+127.0.0.1 - - [12/May/2023:09:16:10 +0000] "GET /server/test HTTP/1.1" 500 87471 "-" "PostmanRuntime/7.32.2"
+127.0.0.1 - - [12/May/2023:09:16:25 +0000] "GET /server/goods/list/1?_t=1683882985860 HTTP/1.1" 200 72 "http://localhost:3000/console" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+127.0.0.1 - - [12/May/2023:09:16:45 +0000] "GET /server/test HTTP/1.1" 500 45338 "-" "PostmanRuntime/7.32.2"
+127.0.0.1 - - [12/May/2023:09:16:49 +0000] "GET /server/test HTTP/1.1" 500 45338 "-" "PostmanRuntime/7.32.2"
+127.0.0.1 - - [12/May/2023:09:17:03 +0000] "GET /server/goods/list/1?_t=1683883023876 HTTP/1.1" 200 72 "http://localhost:3000/console" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+127.0.0.1 - - [12/May/2023:09:18:38 +0000] "GET /server/goods/list/1?_t=1683883118178 HTTP/1.1" 200 72 "http://localhost:3000/console" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+127.0.0.1 - - [12/May/2023:09:19:16 +0000] "GET /server/test HTTP/1.1" 200 29 "-" "PostmanRuntime/7.32.2"
+127.0.0.1 - - [12/May/2023:09:19:36 +0000] "GET /server/goods/list/1?_t=1683883176933 HTTP/1.1" 200 72 "http://localhost:3000/console" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+127.0.0.1 - - [12/May/2023:09:19:51 +0000] "GET /server/test HTTP/1.1" 200 29 "-" "PostmanRuntime/7.32.2"
+127.0.0.1 - - [12/May/2023:09:20:12 +0000] "GET /server/goods/list/1?_t=1683883211950 HTTP/1.1" 200 72 "http://localhost:3000/console" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+127.0.0.1 - - [12/May/2023:09:25:43 +0000] "GET /server/goods/list/1?_t=1683883543791 HTTP/1.1" 200 72 "http://localhost:3000/console" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+UnauthorizedError: jwt expired
+    at new UnauthorizedError (D:\www\linkinsense-home\node_modules\express-jwt\dist\errors\UnauthorizedError.js:22:28)
+    at D:\www\linkinsense-home\node_modules\express-jwt\dist\index.js:139:38
+    at step (D:\www\linkinsense-home\node_modules\express-jwt\dist\index.js:33:23)
+    at Object.next (D:\www\linkinsense-home\node_modules\express-jwt\dist\index.js:14:53)
+    at fulfilled (D:\www\linkinsense-home\node_modules\express-jwt\dist\index.js:5:58)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+127.0.0.1 - - [12/May/2023:09:27:48 +0000] "GET /server/test HTTP/1.1" 200 86 "-" "PostmanRuntime/7.32.2"
+127.0.0.1 - - [12/May/2023:09:27:58 +0000] "GET /server/goods/list/1?_t=1683883678210 HTTP/1.1" 200 72 "http://localhost:3000/console" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+127.0.0.1 - - [12/May/2023:09:28:10 +0000] "GET /server/test HTTP/1.1" 200 174 "-" "PostmanRuntime/7.32.2"
+127.0.0.1 - - [12/May/2023:09:32:12 +0000] "GET /server/goods/list/1?_t=1683883932142 HTTP/1.1" 200 72 "http://localhost:3000/console" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36"
+Error: Cannot find module './plugins/morgan'
+Require stack:
+- D:\www\linkinsense-home\server\plugins\morgan.js
+- D:\www\linkinsense-home\server\index.js
+- D:\www\linkinsense-home\node_modules\@nuxt\core\dist\core.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Job.job (D:\www\linkinsense-home\server\plugins\morgan.js:35:30)
+    at Job.invoke (D:\www\linkinsense-home\node_modules\node-schedule\lib\Job.js:171:15)
+    at D:\www\linkinsense-home\node_modules\node-schedule\lib\Invocation.js:268:28
+    at Timeout._onTimeout (D:\www\linkinsense-home\node_modules\node-schedule\lib\Invocation.js:228:7)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+Error: Cannot find module './plugins/morgan'
+Require stack:
+- D:\www\linkinsense-home\server\plugins\morgan.js
+- D:\www\linkinsense-home\server\index.js
+- D:\www\linkinsense-home\node_modules\@nuxt\core\dist\core.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Job.job (D:\www\linkinsense-home\server\plugins\morgan.js:35:30)
+    at Job.invoke (D:\www\linkinsense-home\node_modules\node-schedule\lib\Job.js:171:15)
+    at D:\www\linkinsense-home\node_modules\node-schedule\lib\Invocation.js:268:28
+    at Timeout._onTimeout (D:\www\linkinsense-home\node_modules\node-schedule\lib\Invocation.js:228:7)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+Error: Cannot find module './plugins/morgan'
+Require stack:
+- D:\www\linkinsense-home\server\plugins\morgan.js
+- D:\www\linkinsense-home\server\index.js
+- D:\www\linkinsense-home\node_modules\@nuxt\core\dist\core.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Job.job (D:\www\linkinsense-home\server\plugins\morgan.js:35:30)
+    at Job.invoke (D:\www\linkinsense-home\node_modules\node-schedule\lib\Job.js:171:15)
+    at D:\www\linkinsense-home\node_modules\node-schedule\lib\Invocation.js:268:28
+    at Timeout._onTimeout (D:\www\linkinsense-home\node_modules\node-schedule\lib\Invocation.js:228:7)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+Error: Cannot find module './plugins/morgan'
+Require stack:
+- D:\www\linkinsense-home\server\plugins\morgan.js
+- D:\www\linkinsense-home\server\index.js
+- D:\www\linkinsense-home\node_modules\@nuxt\core\dist\core.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Job.job (D:\www\linkinsense-home\server\plugins\morgan.js:35:30)
+    at Job.invoke (D:\www\linkinsense-home\node_modules\node-schedule\lib\Job.js:171:15)
+    at D:\www\linkinsense-home\node_modules\node-schedule\lib\Invocation.js:268:28
+    at Timeout._onTimeout (D:\www\linkinsense-home\node_modules\node-schedule\lib\Invocation.js:228:7)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+Error: Cannot find module './plugins/morgan'
+Require stack:
+- D:\www\linkinsense-home\server\plugins\morgan.js
+- D:\www\linkinsense-home\server\index.js
+- D:\www\linkinsense-home\node_modules\@nuxt\core\dist\core.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Job.job (D:\www\linkinsense-home\server\plugins\morgan.js:35:30)
+    at Job.invoke (D:\www\linkinsense-home\node_modules\node-schedule\lib\Job.js:171:15)
+    at D:\www\linkinsense-home\node_modules\node-schedule\lib\Invocation.js:268:28
+    at Timeout._onTimeout (D:\www\linkinsense-home\node_modules\node-schedule\lib\Invocation.js:228:7)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+Error: Cannot find module './plugins/morgan'
+Require stack:
+- D:\www\linkinsense-home\server\plugins\morgan.js
+- D:\www\linkinsense-home\server\index.js
+- D:\www\linkinsense-home\node_modules\@nuxt\core\dist\core.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Job.job (D:\www\linkinsense-home\server\plugins\morgan.js:35:30)
+    at Job.invoke (D:\www\linkinsense-home\node_modules\node-schedule\lib\Job.js:171:15)
+    at D:\www\linkinsense-home\node_modules\node-schedule\lib\Invocation.js:268:28
+    at Timeout._onTimeout (D:\www\linkinsense-home\node_modules\node-schedule\lib\Invocation.js:228:7)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+Error: Cannot find module './plugins/morgan'
+Require stack:
+- D:\www\linkinsense-home\server\plugins\morgan.js
+- D:\www\linkinsense-home\server\index.js
+- D:\www\linkinsense-home\node_modules\@nuxt\core\dist\core.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Job.job (D:\www\linkinsense-home\server\plugins\morgan.js:35:30)
+    at Job.invoke (D:\www\linkinsense-home\node_modules\node-schedule\lib\Job.js:171:15)
+    at D:\www\linkinsense-home\node_modules\node-schedule\lib\Invocation.js:268:28
+    at Timeout._onTimeout (D:\www\linkinsense-home\node_modules\node-schedule\lib\Invocation.js:228:7)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+Error: Cannot find module './plugins/morgan'
+Require stack:
+- D:\www\linkinsense-home\server\plugins\morgan.js
+- D:\www\linkinsense-home\server\index.js
+- D:\www\linkinsense-home\node_modules\@nuxt\core\dist\core.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Job.job (D:\www\linkinsense-home\server\plugins\morgan.js:35:30)
+    at Job.invoke (D:\www\linkinsense-home\node_modules\node-schedule\lib\Job.js:171:15)
+    at D:\www\linkinsense-home\node_modules\node-schedule\lib\Invocation.js:268:28
+    at Timeout._onTimeout (D:\www\linkinsense-home\node_modules\node-schedule\lib\Invocation.js:228:7)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+Error: Cannot find module './plugins/morgan'
+Require stack:
+- D:\www\linkinsense-home\server\plugins\morgan.js
+- D:\www\linkinsense-home\server\index.js
+- D:\www\linkinsense-home\node_modules\@nuxt\core\dist\core.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Job.job (D:\www\linkinsense-home\server\plugins\morgan.js:35:30)
+    at Job.invoke (D:\www\linkinsense-home\node_modules\node-schedule\lib\Job.js:171:15)
+    at D:\www\linkinsense-home\node_modules\node-schedule\lib\Invocation.js:268:28
+    at Timeout._onTimeout (D:\www\linkinsense-home\node_modules\node-schedule\lib\Invocation.js:228:7)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+Error: Cannot find module './plugins/morgan'
+Require stack:
+- D:\www\linkinsense-home\server\plugins\morgan.js
+- D:\www\linkinsense-home\server\index.js
+- D:\www\linkinsense-home\node_modules\@nuxt\core\dist\core.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Job.job (D:\www\linkinsense-home\server\plugins\morgan.js:35:30)
+    at Job.invoke (D:\www\linkinsense-home\node_modules\node-schedule\lib\Job.js:171:15)
+    at D:\www\linkinsense-home\node_modules\node-schedule\lib\Invocation.js:268:28
+    at Timeout._onTimeout (D:\www\linkinsense-home\node_modules\node-schedule\lib\Invocation.js:228:7)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+Error: Cannot find module './plugins/morgan'
+Require stack:
+- D:\www\linkinsense-home\server\plugins\morgan.js
+- D:\www\linkinsense-home\server\index.js
+- D:\www\linkinsense-home\node_modules\@nuxt\core\dist\core.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Job.job (D:\www\linkinsense-home\server\plugins\morgan.js:35:30)
+    at Job.invoke (D:\www\linkinsense-home\node_modules\node-schedule\lib\Job.js:171:15)
+    at D:\www\linkinsense-home\node_modules\node-schedule\lib\Invocation.js:268:28
+    at Timeout._onTimeout (D:\www\linkinsense-home\node_modules\node-schedule\lib\Invocation.js:228:7)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
+Error: Cannot find module './plugins/morgan'
+Require stack:
+- D:\www\linkinsense-home\server\plugins\morgan.js
+- D:\www\linkinsense-home\server\index.js
+- D:\www\linkinsense-home\node_modules\@nuxt\core\dist\core.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Job.job (D:\www\linkinsense-home\server\plugins\morgan.js:35:30)
+    at Job.invoke (D:\www\linkinsense-home\node_modules\node-schedule\lib\Job.js:171:15)
+    at D:\www\linkinsense-home\node_modules\node-schedule\lib\Invocation.js:268:28
+    at Timeout._onTimeout (D:\www\linkinsense-home\node_modules\node-schedule\lib\Invocation.js:228:7)
+    at listOnTimeout (node:internal/timers:559:17)
+    at processTimers (node:internal/timers:502:7)
